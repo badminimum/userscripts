@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Cookie Clicker - Auto Clicker
 // @namespace   Game Cheats by badminimum
-// @version     1.0.0
+// @version     1.0.1
 //
 // @match       https://orteil.dashnet.org/cookieclicker/*
 // @grant       none
