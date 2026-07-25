@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name        Cookie Clicker - Auto Clicker
 // @namespace   Game Cheats by badminimum
-// @icon        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKUlEQVQ4T6VTS0xTQRQ9BALallLsB6WFSgvWtmiIDVINqR8SUeLSRBasXBkW7owrdGPi0rgyJK5cGEmMbkyMxohBAhIpIX5qlPLqJ1WZ19JSSgVCrLm3ecNrujKezdx3Z8559565U4X/RJWMdIh43UXjznWsFrZQb6iBIgqc/yRWK86XJXyO+mKPLwgluQCH0Y4Wdy1sljreS2U3EI0loeY3y4RkQORIwI613xvwdzTj6ZQCj7MD3b4/eBtPodVl5XOU14tIgTOdTcVGYw2OHHBi+l0SA/1dWMkBDebSPsXLKcGVZFYMuPvq9baA9veD7TY0NtuZ8Gw8jbpqgeGrI5i8dxtjLxa5onw2C6t1ExMxlatgATLNZdvC5RvX8TM2gTuj0+jr82ImmmbCyK0rnL8/9hFqJoGBsJsFJ5V0SaDXYy32H/UgFO7EshB4+GgRJotFkm9eG2UvvF1B3qd2Hj+fxZP3SyUB6t9lM7JRJJKIC9l78Pg5fHj5oPQBIPNDZY+iidx2C+RBqM3M7p+9MMzl7glE5ErQ4sHBSzh9uI2vVLagmWgwmdB9qIUJuxwOLpeQUARf3/mTXmkmzYoUIFAb+/Y2oX33Dj5Eg3Six8yxv7UBxyJ+Lj/+ax2fvyxx/8STAlQFrUOn9mNq/hs7TRifyUGsqbg4FMabue9MptGuGCQCidhNtQgFnCjk85zTJnPhazVfoZ5MKBPQoAnpHxJBT9RQkfhX/AVckwggaBuq2gAAAABJRU5ErkJggg==
-// @version     1.0.1
+// @version     1.0.0
 //
 // @match       https://orteil.dashnet.org/cookieclicker/*
 // @grant       none
 //
 // @author      badminimum
 // @description Clicks the big cookie for you, buys upgrades and products. Comes with a small UI.
+// @license     MIT
 // ==/UserScript==
 const cookieButton = document.getElementById("bigCookie");
 
