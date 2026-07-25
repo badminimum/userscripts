@@ -225,6 +225,16 @@ class ClickerButton {
 
     (async () => {
       while (this.#running) {
+          for (const shimmer of Game.shimmers) {
+            if (shimmer.type == "golden") {
+                shimmer.pop();
+            }
+        }
+      }
+    })();
+
+    (async () => {
+      while (this.#running) {
         await Promise.allSettled([
           this.#fceas("upgrades", ["upgrade", "enabled"]),
           this.#fceas("products", ["product", "unlocked", "enabled"])
