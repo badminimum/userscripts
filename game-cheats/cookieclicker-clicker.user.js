@@ -8,7 +8,7 @@
 // @grant       none
 //
 // @author      badminimum
-// @description Clicks the big cookie for you, buys upgrades and products. Upgrades are prioritized.
+// @description Clicks the big cookie for you, buys upgrades and products. Comes with a small UI.
 // ==/UserScript==
 const cookieButton = document.getElementById("bigCookie");
 
